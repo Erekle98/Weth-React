@@ -1,11 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-import WalletCard from './WalletCard';
+import Weth from "./Weth/Weth";
 
 function App() {
   return (
     <div className="App">
-      <WalletCard/>
+      <Weth />
     </div>
   );
 }
